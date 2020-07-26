@@ -20,22 +20,15 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 PM_START_TEXT = """
 *Hai* *{}*,*My Name is* *{}*! 
 
-`Am a Reverse Image Searcher Bot,I can Give You The Best Results Related To Your Media!😎`
+`Am a test bot Bot`
 
-*☛  Do not Search for Porn . Otherwise you will get Permenent Ban from using any of our Bots*
 
 
 /help for more details..
 """
 
 HELP_STRINGS = """
-What is *Google Lens?*
-
-`Google Lens is an image recognition technology developed by Google, designed to bring up relevant information related to objects it identifies using visual analysis based on a  neural network.`
-
- - /lens: Does a reverse image search of the media, Please reply to a sticker, or an image to search it!
-
-- /lens `[picturelink] <amount>` : To Search an Image from a Link!
+Select the below button
 
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nഈ പറഞ്ഞിരിക്കുന്ന commandകൾ എല്ലാം  / അല്ലെങ്കിൽ ! വെച്ച് ഉപയോഗിക്കാവുന്നതാണ്...\n")
 
